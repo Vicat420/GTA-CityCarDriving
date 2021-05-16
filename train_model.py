@@ -12,7 +12,7 @@ WIDTH = 80
 HEIGHT = 60
 LR = 1e-3
 EPOCHS = 8
-MODEL_NAME = 'pygta5-car-fast-{}-{}-{}-epochs-data-rapport.model'.format(LR, 'alexnetv2',EPOCHS)
+MODEL_NAME = 'pygta5-car-fast-{}-{}-{}-epochs-data.model'.format(LR, 'alexnetv2',EPOCHS)
 
 model = alexnet(WIDTH, HEIGHT, LR)
 
